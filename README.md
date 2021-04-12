@@ -4,9 +4,16 @@
 ## OcclusionMaterial demo
 ______________________________________
 
-![](https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/OcclusionMaterial.gif?raw=true)
+<img src="https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/OcclusionMaterial.gif?raw=true" width="390" height="844">
 
-## OcclusionMaterial demo
+
+
+
+
+
+
+## PersonSegmentation demo
 ______________________________________
 
-![](https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/PersonSegmentation.gif?raw=true)
+<img src="https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/PersonSegmentation.gif?raw=true" width="390" height="844">
+
