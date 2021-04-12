@@ -2,7 +2,7 @@
 
 
 ## OcclusionMaterial demo
-______________________________________
+
 
 <img src="https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/OcclusionMaterial.gif?raw=true" width="390" height="844">
 
@@ -13,7 +13,7 @@ ______________________________________
 
 
 ## PersonSegmentation demo
-______________________________________
+
 
 <img src="https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/PersonSegmentation.gif?raw=true" width="390" height="844">
 
