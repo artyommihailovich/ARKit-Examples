@@ -1,0 +1,6 @@
+module Pods_ARKitStartApp {
+  umbrella header "Pods-ARKitStartApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
