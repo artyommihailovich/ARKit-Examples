@@ -11,8 +11,6 @@ import ARKit
 import SnapKit
 
 final class ViewController: UIViewController {
-     
-    private var anchor: AnchorEntity!
     
     lazy private var arView = ARView().do {
         $0.cameraMode = .ar
