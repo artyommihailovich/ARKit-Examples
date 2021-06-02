@@ -17,3 +17,7 @@
 
 <img src="https://github.com/artyommihailovich/ARKit/blob/main/DemoResources/PersonSegmentation.gif?raw=true" width="390" height="844">
 
+
+## ARVoiceRemote
+### About
+Move AR object using speech recognizer. Also implemented people occlusion, and immersive sound.
