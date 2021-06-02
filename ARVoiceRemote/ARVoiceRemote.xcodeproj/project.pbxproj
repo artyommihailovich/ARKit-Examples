@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A409C61F2664C411008A8490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409C61E2664C411008A8490 /* AppDelegate.swift */; };
+		A409C6212664C411008A8490 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409C6202664C411008A8490 /* MainViewController.swift */; };
+		A409C6282664C415008A8490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A409C6272664C415008A8490 /* Assets.xcassets */; };
+		A409C62B2664C415008A8490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409C6292664C415008A8490 /* LaunchScreen.storyboard */; };
+		A409C63B2664F0D2008A8490 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A409C63A2664F0D2008A8490 /* SnapKit */; };
+		A409C63D2664F11F008A8490 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409C63C2664F11F008A8490 /* Functional.swift */; };
+		A409C6422664FEFD008A8490 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409C6412664FEFD008A8490 /* MathLibrary.swift */; };
+		A41ECA64266637A8007E7F39 /* Drone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A41ECA63266637A8007E7F39 /* Drone.usdz */; };
+		A499445E26677627009D7ECF /* AboutModel in Resources */ = {isa = PBXBuildFile; fileRef = A499445D26677627009D7ECF /* AboutModel */; };
+		A49944632667838F009D7ECF /* DroneSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A49944622667838F009D7ECF /* DroneSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A409C61B2664C411008A8490 /* ARVoiceRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVoiceRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A409C61E2664C411008A8490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A409C6202664C411008A8490 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A409C6272664C415008A8490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A409C62A2664C415008A8490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A409C62C2664C415008A8490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A409C63C2664F11F008A8490 /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		A409C6412664FEFD008A8490 /* MathLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		A41ECA63266637A8007E7F39 /* Drone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Drone.usdz; sourceTree = "<group>"; };
+		A499445D26677627009D7ECF /* AboutModel */ = {isa = PBXFileReference; lastKnownFileType = text; path = AboutModel; sourceTree = "<group>"; };
+		A49944622667838F009D7ECF /* DroneSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DroneSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A409C6182664C411008A8490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A409C63B2664F0D2008A8490 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A409C6122664C411008A8490 = {
+			isa = PBXGroup;
+			children = (
+				A409C61D2664C411008A8490 /* ARVoiceRemote */,
+				A409C63E2664F1F5008A8490 /* Helpers */,
+				A409C61C2664C411008A8490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A409C61C2664C411008A8490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A409C61B2664C411008A8490 /* ARVoiceRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A409C61D2664C411008A8490 /* ARVoiceRemote */ = {
+			isa = PBXGroup;
+			children = (
+				A409C6342664C448008A8490 /* App */,
+				A409C6352664C4BC008A8490 /* MainViewController */,
+				A409C6322664C434008A8490 /* Assets */,
+				A409C62C2664C415008A8490 /* Info.plist */,
+				A49944622667838F009D7ECF /* DroneSound.mp3 */,
+			);
+			path = ARVoiceRemote;
+			sourceTree = "<group>";
+		};
+		A409C6322664C434008A8490 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A409C6332664C43D008A8490 /* Models */,
+				A409C6272664C415008A8490 /* Assets.xcassets */,
+				A409C6292664C415008A8490 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A409C6332664C43D008A8490 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A41ECA63266637A8007E7F39 /* Drone.usdz */,
+				A499445D26677627009D7ECF /* AboutModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A409C6342664C448008A8490 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A409C61E2664C411008A8490 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A409C6352664C4BC008A8490 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A409C6202664C411008A8490 /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		A409C63E2664F1F5008A8490 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A409C63C2664F11F008A8490 /* Functional.swift */,
+				A409C6412664FEFD008A8490 /* MathLibrary.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A409C61A2664C411008A8490 /* ARVoiceRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A409C62F2664C415008A8490 /* Build configuration list for PBXNativeTarget "ARVoiceRemote" */;
+			buildPhases = (
+				A409C6172664C411008A8490 /* Sources */,
+				A409C6182664C411008A8490 /* Frameworks */,
+				A409C6192664C411008A8490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARVoiceRemote;
+			packageProductDependencies = (
+				A409C63A2664F0D2008A8490 /* SnapKit */,
+			);
+			productName = ARVoiceRemote;
+			productReference = A409C61B2664C411008A8490 /* ARVoiceRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A409C6132664C411008A8490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A409C61A2664C411008A8490 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A409C6162664C411008A8490 /* Build configuration list for PBXProject "ARVoiceRemote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A409C6122664C411008A8490;
+			packageReferences = (
+				A409C6392664F0D2008A8490 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = A409C61C2664C411008A8490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A409C61A2664C411008A8490 /* ARVoiceRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A409C6192664C411008A8490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A409C62B2664C415008A8490 /* LaunchScreen.storyboard in Resources */,
+				A41ECA64266637A8007E7F39 /* Drone.usdz in Resources */,
+				A49944632667838F009D7ECF /* DroneSound.mp3 in Resources */,
+				A499445E26677627009D7ECF /* AboutModel in Resources */,
+				A409C6282664C415008A8490 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A409C6172664C411008A8490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A409C63D2664F11F008A8490 /* Functional.swift in Sources */,
+				A409C6212664C411008A8490 /* MainViewController.swift in Sources */,
+				A409C61F2664C411008A8490 /* AppDelegate.swift in Sources */,
+				A409C6422664FEFD008A8490 /* MathLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A409C6292664C415008A8490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A409C62A2664C415008A8490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A409C62D2664C415008A8490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A409C62E2664C415008A8490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A409C6302664C415008A8490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWPDQ88TSM;
+				INFOPLIST_FILE = ARVoiceRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtyomMihailovich.ARVoiceRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A409C6312664C415008A8490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWPDQ88TSM;
+				INFOPLIST_FILE = ARVoiceRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtyomMihailovich.ARVoiceRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A409C6162664C411008A8490 /* Build configuration list for PBXProject "ARVoiceRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A409C62D2664C415008A8490 /* Debug */,
+				A409C62E2664C415008A8490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A409C62F2664C415008A8490 /* Build configuration list for PBXNativeTarget "ARVoiceRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A409C6302664C415008A8490 /* Debug */,
+				A409C6312664C415008A8490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A409C6392664F0D2008A8490 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A409C63A2664F0D2008A8490 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A409C6392664F0D2008A8490 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A409C6132664C411008A8490 /* Project object */;
+}
