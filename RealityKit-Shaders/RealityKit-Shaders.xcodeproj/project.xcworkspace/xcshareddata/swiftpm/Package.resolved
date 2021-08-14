@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RealityGeometries",
+        "repositoryURL": "https://github.com/maxxfrazer/RealityGeometries.git",
+        "state": {
+          "branch": null,
+          "revision": "19c4582866c61dde6783df5350f5cae44780dfd3",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

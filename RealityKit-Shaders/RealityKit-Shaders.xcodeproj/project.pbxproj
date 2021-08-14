@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4645554267886DE00F7CBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4645553267886DE00F7CBE8 /* AppDelegate.swift */; };
+		A4645556267886DE00F7CBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4645555267886DE00F7CBE8 /* ViewController.swift */; };
+		A464555B267886DE00F7CBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4645559267886DE00F7CBE8 /* Main.storyboard */; };
+		A464555D267886DF00F7CBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A464555C267886DF00F7CBE8 /* Assets.xcassets */; };
+		A4645560267886DF00F7CBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464555E267886DF00F7CBE8 /* LaunchScreen.storyboard */; };
+		A464556926788A8000F7CBE8 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464556826788A8000F7CBE8 /* ARView.swift */; };
+		A464556B26788CF200F7CBE8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464556A26788CF200F7CBE8 /* UIColor.swift */; };
+		A46455A02678BC3300F7CBE8 /* RealityGeometries in Frameworks */ = {isa = PBXBuildFile; productRef = A464559F2678BC3300F7CBE8 /* RealityGeometries */; };
+		A4AFEE4026C687A300085BB7 /* Stretch.metal in Sources */ = {isa = PBXBuildFile; fileRef = A4AFEE3E26C687A300085BB7 /* Stretch.metal */; };
+		A4AFEE4126C687A300085BB7 /* Wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = A4AFEE3F26C687A300085BB7 /* Wave.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4645550267886DE00F7CBE8 /* RealityKit-Shaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealityKit-Shaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4645553267886DE00F7CBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4645555267886DE00F7CBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A464555A267886DE00F7CBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A464555C267886DF00F7CBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A464555F267886DF00F7CBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A464556826788A8000F7CBE8 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		A464556A26788CF200F7CBE8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A4AFEE3E26C687A300085BB7 /* Stretch.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Stretch.metal; sourceTree = "<group>"; };
+		A4AFEE3F26C687A300085BB7 /* Wave.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Wave.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A464554D267886DE00F7CBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46455A02678BC3300F7CBE8 /* RealityGeometries in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4645547267886DE00F7CBE8 = {
+			isa = PBXGroup;
+			children = (
+				A4645552267886DE00F7CBE8 /* RealityKit-Shaders */,
+				A4645551267886DE00F7CBE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4645551267886DE00F7CBE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4645550267886DE00F7CBE8 /* RealityKit-Shaders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4645552267886DE00F7CBE8 /* RealityKit-Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A4645553267886DE00F7CBE8 /* AppDelegate.swift */,
+				A4645555267886DE00F7CBE8 /* ViewController.swift */,
+				A4AFEE3E26C687A300085BB7 /* Stretch.metal */,
+				A4AFEE3F26C687A300085BB7 /* Wave.metal */,
+				A464556D2678907A00F7CBE8 /* Extensions */,
+				A464556C2678907100F7CBE8 /* Assets */,
+			);
+			path = "RealityKit-Shaders";
+			sourceTree = "<group>";
+		};
+		A464556C2678907100F7CBE8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A4645559267886DE00F7CBE8 /* Main.storyboard */,
+				A464555C267886DF00F7CBE8 /* Assets.xcassets */,
+				A464555E267886DF00F7CBE8 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A464556D2678907A00F7CBE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A464556A26788CF200F7CBE8 /* UIColor.swift */,
+				A464556826788A8000F7CBE8 /* ARView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A464554F267886DE00F7CBE8 /* RealityKit-Shaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4645563267886DF00F7CBE8 /* Build configuration list for PBXNativeTarget "RealityKit-Shaders" */;
+			buildPhases = (
+				A464554C267886DE00F7CBE8 /* Sources */,
+				A464554D267886DE00F7CBE8 /* Frameworks */,
+				A464554E267886DE00F7CBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RealityKit-Shaders";
+			packageProductDependencies = (
+				A464559F2678BC3300F7CBE8 /* RealityGeometries */,
+			);
+			productName = "RealityKit-Shaders";
+			productReference = A4645550267886DE00F7CBE8 /* RealityKit-Shaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4645548267886DE00F7CBE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A464554F267886DE00F7CBE8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A464554B267886DE00F7CBE8 /* Build configuration list for PBXProject "RealityKit-Shaders" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4645547267886DE00F7CBE8;
+			packageReferences = (
+				A464559E2678BC3300F7CBE8 /* XCRemoteSwiftPackageReference "RealityGeometries" */,
+			);
+			productRefGroup = A4645551267886DE00F7CBE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A464554F267886DE00F7CBE8 /* RealityKit-Shaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A464554E267886DE00F7CBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4645560267886DF00F7CBE8 /* LaunchScreen.storyboard in Resources */,
+				A464555D267886DF00F7CBE8 /* Assets.xcassets in Resources */,
+				A464555B267886DE00F7CBE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A464554C267886DE00F7CBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4645556267886DE00F7CBE8 /* ViewController.swift in Sources */,
+				A464556926788A8000F7CBE8 /* ARView.swift in Sources */,
+				A4AFEE4026C687A300085BB7 /* Stretch.metal in Sources */,
+				A4645554267886DE00F7CBE8 /* AppDelegate.swift in Sources */,
+				A4AFEE4126C687A300085BB7 /* Wave.metal in Sources */,
+				A464556B26788CF200F7CBE8 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4645559267886DE00F7CBE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464555A267886DE00F7CBE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A464555E267886DF00F7CBE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464555F267886DF00F7CBE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4645561267886DF00F7CBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4645562267886DF00F7CBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4645564267886DF00F7CBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWPDQ88TSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtyomMihailovich.RealityKit-Shaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4645565267886DF00F7CBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWPDQ88TSM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtyomMihailovich.RealityKit-Shaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A464554B267886DE00F7CBE8 /* Build configuration list for PBXProject "RealityKit-Shaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4645561267886DF00F7CBE8 /* Debug */,
+				A4645562267886DF00F7CBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4645563267886DF00F7CBE8 /* Build configuration list for PBXNativeTarget "RealityKit-Shaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4645564267886DF00F7CBE8 /* Debug */,
+				A4645565267886DF00F7CBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A464559E2678BC3300F7CBE8 /* XCRemoteSwiftPackageReference "RealityGeometries" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/RealityGeometries.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A464559F2678BC3300F7CBE8 /* RealityGeometries */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A464559E2678BC3300F7CBE8 /* XCRemoteSwiftPackageReference "RealityGeometries" */;
+			productName = RealityGeometries;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4645548267886DE00F7CBE8 /* Project object */;
+}
